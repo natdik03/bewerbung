@@ -1,0 +1,115 @@
+body {
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header, footer {
+    background-color: #d1e5a9; /* Schwach-hell-Grün */
+    color: #3e2723; /* Dunkel-Braun */
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+
+    padding: 5px;
+    background-color: #fafad2; /* Mattes Gelb/Bäsch */
+  /*  background-image: url('risingSun.png');*/
+    background-position: 1%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 80%;
+
+}
+
+img{
+    border: none;
+    outline: none;
+}
+
+.left-column {
+    width: 40%;
+    text-align: right;
+}
+
+.nav-link {
+    display: block;
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #d1e5a9;
+    color: #3e2723;
+    border: none; /* Keine Umrandung */
+    border-radius: 5px; /* Abgerundete Ecken */
+    text-decoration: none; /* Keine Unterstreichung für Links */
+    cursor: pointer;
+    text-align: center; /* Schrift mittig ausrichten */
+}
+
+.right-column {
+    width: 55%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Bildbreite auf 100% der Containerbreite begrenzen */
+    height: auto;
+   /* border: 1px solid #3e2723; /* Umrandung */
+    border-radius: 5px;
+    
+   
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent; /* Transparenter Hintergrund */
+}
+
+.programmierfoto{
+    max-width: 95%;
+    border:5px solid  #3e2723;
+  
+    
+}
+.bewerbungsfoto-Rahmen{
+
+}
+.blumenfoto{
+    max-width: 60%; 
+}
+.abstand{
+    height: 1%;
+}
+.lebenslauf{
+    
+width: 60%;
+height: 60%;
+transform: rotate(20deg) translateX(80%) translateY(1%);
+}
+.motivation{
+
+    height: 100%;
+    width: 100%;
+
+}
+.abstand2{
+    height: 12%;
+
+}
+.impressum{
+ transform: translateX(-33%);
+}
+.abstandA{
+height: 50px;
+}
+.abstandB{
+height: 50px;
+}
+
+.zurück{
+    transform: rotate(320deg) translateX(35px) translateY(-90px);
+}
